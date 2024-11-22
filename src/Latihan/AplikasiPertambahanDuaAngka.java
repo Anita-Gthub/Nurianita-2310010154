@@ -60,6 +60,11 @@ public class AplikasiPertambahanDuaAngka extends javax.swing.JFrame {
                 angkaKe1FocusGained(evt);
             }
         });
+        angkaKe1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                angkaKe1ActionPerformed(evt);
+            }
+        });
         angkaKe1.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
                 angkaKe1KeyTyped(evt);
@@ -203,6 +208,10 @@ public class AplikasiPertambahanDuaAngka extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(this, "Hanya angka yang diperbolehkan!", "Error", JOptionPane.ERROR_MESSAGE);
     }
     }//GEN-LAST:event_angkaKe2KeyTyped
+
+    private void angkaKe1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_angkaKe1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_angkaKe1ActionPerformed
 
     
     
